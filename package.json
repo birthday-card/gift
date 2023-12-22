@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://hotai1806.github.io/birthday-card/",
   "scripts": {
-    "build": "rm -rf dist && parcel build src/index.html --public-url https://hotai1806.github.io/birthday-card/",
+    "build": "rm -rf dist && parcel build src/index.html --public-url https://birthday-card.github.io/gift/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
